@@ -1,0 +1,13 @@
+primeros=20;
+segundos=0.2;
+terceros=0.1;
+
+read -p "¿Cuantos litros de agua se han consumido? " v1
+
+while [ $v1 -le 0 ]
+do
+    read -p "¿Cuantos litro de agua se han consumido? " v1
+done
+
+for i ´
+

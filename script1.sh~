@@ -1,0 +1,17 @@
+read -p "Escriba un numero entero "  v1
+read -p "Escriba un segundo numero entero " v2
+
+if[$v1 -gt $v2]
+then
+    echo "El primer valor es mayor que el segundo"
+else
+    if[$v1 -eq $v2]
+    then
+	echo "Los numeros tienen el mismo valor"
+    else
+	
+    echo "El segundo valor es mayor que el primero"
+fi
+
+fi
+
