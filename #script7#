@@ -1,0 +1,2 @@
+read -p "Introduce un día entre el 1 y el 30: " dia
+while
